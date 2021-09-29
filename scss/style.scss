@@ -1,7 +1,9 @@
+/*Variaveis de cores*/
 $purple: #A050BE;
 $light-grey: #eaeaeb;
 $dark-grey: #464646;
 
+/*header*/
 .header{
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -45,4 +47,25 @@ $dark-grey: #464646;
 }
 .header__menu .menu__list .menu__links .menu__link:hover{
   color:$purple;
+}
+
+/*footer*/
+.footer{
+  text-align: center;
+  padding: 20px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  //Este trcho de estilo posiciono o footer na parte de baixo da nossa tela
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer .footer__logo{
+  max-width: 100px;
+}
+
+.footer .footer__txt{
+  margin: auto;
+  font-size: 14px;
 }
