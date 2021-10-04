@@ -9,6 +9,13 @@ $img-width: 45%;
 %no-decoration {text-decoration: none;}
 %u-decorantion{text-decoration: underline;}
 
+/*Mixin de reset de lista*/
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 /*header*/
 .header {
   font-family: Arial, Helvetica, sans-serif;
