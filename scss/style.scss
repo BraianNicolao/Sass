@@ -34,6 +34,16 @@ $img-width: 45%;
   @media (min-width: 1200px) { @content;}
 }
 
+/*Função*/
+@function calculateRem($size){
+  @return $size / 16px * 1rem;
+}
+
+/*Mixin para conversão de size para Rem*/
+@mixin fontSize($size){
+  font-size: calculateRem($size);
+}
+
 /*header*/
 .header {
   font-family: Arial, Helvetica, sans-serif;
@@ -117,7 +127,7 @@ $img-width: 45%;
 
   &__txt {
     margin: auto;
-    font-size: 14px;
+    @include fontSize(14px);
   }
 }
 
@@ -142,7 +152,7 @@ $img-width: 45%;
   }
   &__title{
     text-decoration: none;
-    font-size: 22px;
+    @include fontSize(22px);
     color: $dark-grey;
     letter-spacing: 1.5;
     &__hover{
