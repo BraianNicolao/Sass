@@ -14,7 +14,7 @@
 /*Resoluções*/
 /*Função*/
 /*Mixin para conversão de size para Rem*/
-/*header*/
+/*Importação de style*/
 .header {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -78,7 +78,6 @@
   color: #A050BE;
 }
 
-/*footer*/
 .footer {
   text-align: center;
   padding: 20px 0;
@@ -96,6 +95,7 @@
   font-size: 0.875rem;
 }
 
+/*footer*/
 .main {
   display: flex;
   justify-content: center;
