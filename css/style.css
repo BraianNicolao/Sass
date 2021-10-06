@@ -11,6 +11,7 @@
 }
 
 /*Mixin de reset de lista*/
+/*Resoluções*/
 /*header*/
 .header {
   font-family: Arial, Helvetica, sans-serif;
@@ -50,6 +51,11 @@
 }
 .header .menu__links {
   position: relative;
+}
+@media (max-width: 767.98px) {
+  .header .menu__links {
+    padding: 5px 0;
+  }
 }
 .header .menu__links:not(:last-child)::after {
   content: "";
@@ -97,6 +103,11 @@
 .main__content {
   width: 70%;
   padding: 40px 8px;
+}
+@media (max-width: 767.98px) {
+  .main__content {
+    width: 100%;
+  }
 }
 .main__post {
   text-align: center;
@@ -239,6 +250,11 @@
   margin: 0 auto 40px;
   font-family: Arial, Helvetica, sans-serif;
 }
+@media (max-width: 767.98px) {
+  .about {
+    width: 90%;
+  }
+}
 .about__title {
   background-color: #eaeaeb;
   text-align: center;
@@ -283,6 +299,16 @@
   text-align: center;
   font-size: 16px;
 }
+@media (max-width: 767.98px) {
+  .about__intro {
+    width: 90%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .about__intro {
+    width: 80%;
+  }
+}
 .about__split {
   display: flex;
   justify-content: center;
@@ -292,8 +318,19 @@
 .about__img-description {
   width: 45%;
 }
+@media (max-width: 767.98px) {
+  .about__img-description {
+    width: 80%;
+  }
+}
 .about__txt {
   width: calc(100% - 45%);
+}
+@media (max-width: 767.98px) {
+  .about__txt {
+    width: 90%;
+    text-align: center;
+  }
 }
 .about__p {
   font-size: 14px;
