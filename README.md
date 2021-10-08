@@ -29,10 +29,10 @@ A seguinte imagem apresenta a página de contato.
 
 ## Sass
 
-Apresentado os layouts finalizados, agora será tratado de forma resumida algumas vantagens de se utilizar o Sass.
+Apresentado os layouts de tela finalizados, será tratado de forma resumida algumas vantagens de se utilizar o Sass.
 - Da linha 1 ao 6 podemos criar variáveis para a definição das cores, sendo mais fáceis de invocar as respectivas cores selecionadas.
 - Da linha 8 ao 9 é realizado a criação de Placeholder selector, é uma espécie de seletor, neste caso foi implementado para que quando o cursor do mouse entrar em contato com o link do blog ele recebe-se um underline, sinalizando que o usuário está selecionando o link.
 - Da linha 11 ao 40 é possível visualizar o mixin, que permitem definir um estilo a ser reutilizado evitando o uso repetitivo de classes.
 - E na linha 42 temos o import, responsável pela importação dos arquivos, o diferencial é que não precisamos fazer a importação de uma forma individual, por meio do Sass é possível importar diversos ao mesmo tempo.
-- 
+
 ![image](https://github.com/BraianNicolao/Sass/blob/main/show/style.png)
